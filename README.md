@@ -1,4 +1,12 @@
-# Getting Started with Create React App
+# React-Cart:
+A React Redux-toolkit cart app
+
+## Requirments: 
+ - React-Router-Dom
+ - React-Redux
+ - Redux-toolkit
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
