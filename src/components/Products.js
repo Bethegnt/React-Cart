@@ -32,18 +32,21 @@ const Products = () => {
         return <h2>Something went wrong!</h2>;
     }
     return (
-        <div className="productsWrapper">
-            {products.map((product) => (
-                <div className="card" key={product.id}>
-                    <img src={product.image} alt="" />
-                    <h4>{product.title}</h4>
-                    <h5>{product.price}</h5>
-                    <button onClick={() => handleAdd(product)} className="btn">
-                        Add to cart
-                    </button>
-                </div>
-            ))}
-        </div>
+      <div className="productsWrapper">
+        {products.map((product) => (
+          <div className="card" key={product.id}>
+            <div>
+              <img src={product.image} alt="" />
+              <h4>{product.title}</h4>
+              <h5>{product.price}</h5>
+            </div>
+            
+            <button onClick={() => handleAdd(product)} className="btn">
+              Add to cart
+            </button>
+          </div>
+        ))}
+      </div>
     );
 };
 

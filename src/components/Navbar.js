@@ -7,11 +7,6 @@ const Navbar = () => {
     const items = useSelector((state) => state.cart);
     return (
         <div className='navbar'
-            style={{
-                display: 'flex',
-                alignItems: 'center',
-                justifyContent: 'space-between',
-            }}
         >
             <span className="logo">React Cart</span>
             <div>
