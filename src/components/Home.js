@@ -1,6 +1,6 @@
 import React from 'react';
 import Products from '../components/Products';
-import banner from '../asset/banner_16x_ultrasharp.png';
+import banner from '../asset/banner1_up.png';
 
 const Home = () => {
     return (

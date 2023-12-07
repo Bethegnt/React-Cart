@@ -1,0 +1,23 @@
+.banner{
+    height: 20rem;
+    width: 100%;
+  }
+
+.footer{
+    align-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: 50px; 
+    font-family: 'Dancing Script', cursive;
+    font-size: 2rem; 
+}
+.tagline{
+    align-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: 2px;
+    font-size: 1rem; 
+    font-family: 'Courier New', Courier, monospace;
+}

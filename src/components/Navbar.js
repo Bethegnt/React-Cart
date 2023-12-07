@@ -1,14 +1,12 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { useSelector } from 'react-redux';
-{/* <style>
-  @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
-</style> */}
+
 
 const Navbar = () => {
     const items = useSelector((state) => state.cart);
     return (
-        <div
+        <div className='navbar'
             style={{
                 display: 'flex',
                 alignItems: 'center',
@@ -23,7 +21,7 @@ const Navbar = () => {
                 <Link className="navLink" to="/cart">
                     Cart
                 </Link>
-                <span className="cartCount">Cart items: {items.length}</span>
+                <span className="cartCount">Cart-item: {items.length}</span>
             </div>
         </div>
     );
