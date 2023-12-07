@@ -1,9 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { useSelector } from 'react-redux';
-{/* <style>
-  @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
-</style> */}
+
 
 const Navbar = () => {
     const items = useSelector((state) => state.cart);
